@@ -7,7 +7,6 @@ const search = document.getElementById('search')
 const main = document.getElementById('main')
 
 
-
 const getMovies = (url) => {
 
     const peticion = fetch(url)
@@ -41,7 +40,7 @@ function showMovies(movies) {
             </div>
             <div class="overview">
                 <h3>overview</h3>
-               ${overview}
+                ${overview}
             </div>
         `
         main.appendChild(movieEl)
